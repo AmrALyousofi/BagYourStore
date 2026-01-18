@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التواصل - متجر الثريا</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- رأس الموقع -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">متجر <span>حقيبتبك</span></a>
+                
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="index.html#women">نسائي</a></li>
+                        <li><a href="index.html#school">مدرسي</a></li>
+                        <li><a href="index.html#travel">سفر</a></li>
+                        <li><a href="contact.html" class="active">تواصل</a></li>
+                    </ul>
+                </nav>
+                
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- صفحة التواصل -->
+    <section class="hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1565022536102-f7645c84354a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80'); height: 300px; padding: 80px 20px;">
+        <div class="hero-content">
+            <h1>تواصل معنا</h1>
+
+                <div class="contact-info">
+                    <h2 class="section-title" style="text-align: right; font-size: 1.8rem;">معلومات التواصل</h2>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <h3><i class="fas fa-phone"></i> الهاتف</h3>
+                            <p>0551234567</p>
+                            <p style="font-size: 0.9rem; color: #666;">من الساعة 9 صباحاً حتى 10 مساءً</p>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <h3><i class="fab fa-whatsapp"></i> واتساب</h3>
+                            <p>0551234567</p>
+                            <p style="font-size: 0.9rem; color: #666;">متاح 24 ساعة للرد على الاستفسارات</p>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <h3><i class="fab fa-instagram"></i> إنستغرام</h3>
+                            <p>@hagibatk</p>
+                            <p style="font-size: 0.9rem; color: #666;">تابعنا للحصول على أحدث العروض</p>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <h3><i class="fas fa-envelope"></i> البريد الإلكتروني</h3>
+                            <p>info@hagibatk.com</p>
+                            <p style="font-size: 0.9rem; color: #666;">سيتم الرد خلال 24 ساعة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- تذييل الصفحة -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>متجر حقيبتبك</h3>
+                    <p>متجر متخصص في بيع الحقائب النسائية والمدرسية والسفر بجودة عالية وتصميمات أنيقة تناسب جميع الأذواق.</p>
+                    <div class="social-links">
+                        <a href="https://wa.me/966551234567" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://instagram.com/hagibatk" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/hagibatk" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="index.html#women">حقائب نسائية</a></li>
+                        <li><a href="index.html#school">حقائب مدرسية</a></li>
+                        <li><a href="index.html#travel">شنط سفر</a></li>
+                        <li><a href="contact.html">التواصل</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>معلومات التواصل</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> 0551234567</p>
+                        <p><i class="fas fa-envelope"></i> info@hagibatk.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> المملكة العربية السعودية</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>جميع الحقوق محفوظة &copy; متجر حقيبتبك <span id="current-year"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // تفعيل نموذج التواصل
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // هنا يمكن إضافة كود إرسال النموذج
+            // للمثال سنعرض رسالة نجاح
+            alert('شكراً لك! تم استلام رسالتك وسنقوم بالرد عليك في أقرب وقت.');
+            
+            // إعادة تعيين النموذج
+            this.reset();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر الثريا - حقائب نسائية ومدرسية وسفر</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- رأس الموقع -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">متجر <span>الثريا</span></a>
+                
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="active">الرئيسية</a></li>
+                        <li><a href="#women">نسائي</a></li>
+                        <li><a href="#school">مدرسي</a></li>
+                        <li><a href="#travel">سفر</a></li>
+                        <li><a href="https://t.me/AmrAlyousofi" target="_blank">تواصل</a></li>
+                    </ul>
+                </nav>
+                
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- البانر الرئيسي -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>اكتشف عالم الحقائب الفاخرة</h1>
+            <p>تشكيلة أنيقة تجمع بين الأناقة والعملية لجميع المناسبات والسفر والمدرسة.</p>
+        </div>
+    </section>
+
+    <!-- قسم نسائي -->
+    <section class="products" id="women">
+        <div class="container">
+            <h2 class="section-title">حقائب نسائية</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="Image/imageWomen/IMG-20260115-WA0005.jpg" alt="حقيبة نسائية أنيقة" loading="lazy">
+                    </div>
+                  <h3 class="product-name">حقيبة نسائية</h3>
+                    <!-- <p class="product-desc">حقيبة أنيقة للاستخدام اليومي مع تصميم عصري</p> -->                     
+                    <div class="price">8000 ريال</div>
+                    <button class="btn">عرض </button>
+
+                </div>
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="Image/imageWomen/w2.jpg" alt="حقيبة كتف نسائية" loading="lazy">
+                    </div>
+                    <h3 class="product-name">حقيبة نسائية</h3>
+                    <div class="price">18,000 ريال</div>
+                    <button class="btn">عرض التفاصيل</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="حقيبة ظهر نسائية" loading="lazy">
+                    </div>
+                    <h3 class="product-name">حقيبة ظهر نسائية</h3>
+                    <p class="product-desc">خفيفة الوزن مع تصميم أنثوي أنيق</p>
+                    <div class="price">12,500 ريال</div>
+                    <button class="btn">عرض التفاصيل</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="حقيبة سهرة نسائية" loading="lazy">
+                    </div>
+                    <h3 class="product-name">حقيبة سهرة فاخرة</h3>
+                    <p class="product-desc">مصنوعة من الجلد الفاخر مع إكسسوارات ذهبية</p>
+                    <div class="price">22,000 ريال</div>
+                    <button class="btn">عرض التفاصيل</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم مدرسي -->
+    <section class="products" id="school">
+        <div class="container">
+            <h2 class="section-title">حقائب مدرسية</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="حقيبة مدرسية" loading="lazy">
+                    </div>
+                    <h3 class="product-name">حقيبة مدرسية متعددة الجيوب</h3>
+                    <p class="product-desc">مريحة للظهر مع جيوب تنظيمية</p>
+                    <div class="price">12,000 ريال</div>
+                    <button class="btn">عرض التفاصيل</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="حقيبة كمبيوتر" loading="lazy">
+                    </div>
+                    <h3 class="product-name">حقيبة كمبيوتر محمول</h3>
+                    <p class="product-desc">تحتوي على حجرة مبطنة للكمبيوتر</p>
+                    <div class="price">14,500 ريال</div>
+                    <button class="btn">عرض التفاصيل</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="https://images.unsplash.com/photo-1546938576-6e6a64f317cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="حقيبة رياضية" loading="lazy">
+                    </div>
+                    <h3 class="product-name">حقيبة رياضية للطلاب</h3>
+                    <p class="product-desc">مصنوعة من مواد مقاومة للماء</p>
+                    <div class="price">10,500 ريال</div>
+                    <button class="btn">عرض التفاصيل</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="حقيبة رسمية" loading="lazy">
+                    </div>
+                    <h3 class="product-name">حقيبة رسمية للجامعة</h3>
+                    <p class="product-desc">تصميم عصري وأنيق للطلاب الجامعيين</p>
+                    <div class="price">16,000 ريال</div>
+                    <button class="btn">عرض التفاصيل</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم سفر -->
+    <section class="products" id="travel">
+        <div class="container">
+            <h2 class="section-title">شنط سفر</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="https://images.unsplash.com/photo-1565022536102-f7645c84354a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="حقيبة سفر كبيرة" loading="lazy">
+                    </div>
+                    <h3 class="product-name">حقيبة سفر كبيرة</h3>
+                    <p class="product-desc">سعة كبيرة مع عجلات متحركة</p>
+                    <div class="price">35,000 ريال</div>
+                    <button class="btn">عرض التفاصيل</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="https://images.unsplash.com/photo-1500835556837-99ac94a94552?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="حقيبة سفر متوسطة" loading="lazy">
+                    </div>
+                    <h3 class="product-name">حقيبة سفر متوسطة</h3>
+                    <p class="product-desc">مناسبة للرحلات القصيرة والمتوسطة</p>
+                    <div class="price">32,000 ريال</div>
+                    <button class="btn">عرض التفاصيل</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="حقيبة يد سفر" loading="lazy">
+                    </div>
+                    <h3 class="product-name">حقيبة يد للسفر</h3>
+                    <p class="product-desc">تصميم عملي مع جيوب تنظيمية</p>
+                    <div class="price">18,500 ريال</div>
+                    <button class="btn">عرض التفاصيل</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="حقيبة ظهر للسفر" loading="lazy">
+                    </div>
+                    <h3 class="product-name">حقيبة ظهر للسفر</h3>
+                    <p class="product-desc">مريحة للرحلات الطويلة والمشي</p>
+                    <div class="price">25,000 ريال</div>
+                    <button class="btn">عرض التفاصيل</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- تذييل الصفحة -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>متجر حقيبتبك</h3>
+                    <p>متجر متخصص في بيع الحقائب النسائية والمدرسية والسفر بجودة عالية وتصميمات أنيقة تناسب جميع الأذواق.</p>
+                    <div class="social-links">
+                        <a href="https://wa.me/966551234567" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://instagram.com/hagibatk" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/hagibatk" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://t.me/AmrAlyousofi" target="_blank"><i class="fab fa-telegram"></i></a>
+                  
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#women">حقائب نسائية</a></li>
+                        <li><a href="#school">حقائب مدرسية</a></li>
+                        <li><a href="#travel">شنط سفر</a></li>
+                        <li><a href="contact.html">التواصل</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>معلومات التواصل</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> 00967779617470</p>
+                        <p><i class="fas fa-envelope"></i> info@hagibatk.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i>اليمن - تعز</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>تم إنشاء الموقع بواسطة المهندس . عمرو اليوسفي&copy<span id=""></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+---------------------------------------------------------------
+// تفعيل الموقع عند التحميل
+document.addEventListener('DOMContentLoaded', function() {
+    // إضافة سنة الحالية في التذييل
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+    
+    // تفعيل القائمة على الهاتف
+    const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+    const mainNav = document.querySelector('.main-nav');
+    
+    if (mobileMenuBtn) {
+        mobileMenuBtn.addEventListener('click', function() {
+            mainNav.classList.toggle('active');
+        });
+    }
+    
+    // تفعيل التنقل السلس
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            
+            // تجاهل الروابط التي لا تشير إلى أقسام
+            if (href === '#') return;
+            
+            // إذا كان الرابط لقسم في نفس الصفحة
+            if (href.startsWith('#')) {
+                e.preventDefault();
+                
+                const targetId = href.substring(1);
+                const targetElement = document.getElementById(targetId);
+                
+                if (targetElement) {
+                    // إغلاق القائمة على الهاتف
+                    mainNav.classList.remove('active');
+                    
+                    // إضافة active للرابط المختار
+                    document.querySelectorAll('.nav-list a').forEach(a => {
+                        a.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                    
+                    // التمرير السلس للقسم المطلوب
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            }
+        });
+    });
+    
+    // تفعيل أزرار عرض التفاصيل
+    document.querySelectorAll('.product-card .btn').forEach(button => {
+        button.addEventListener('click', function() {
+            const productCard = this.closest('.product-card');
+            const productName = productCard.querySelector('.product-name').textContent;
+            const productPrice = productCard.querySelector('.price').textContent;
+            
+            // في الموقع الحقيقي، يمكن توجيه المستخدم لصفحة تفاصيل المنتج
+            // هنا سنعرض رسالة توضيحية
+            alert(`تفاصيل المنتج:\n\nالاسم: ${productName}\nالسعر: ${productPrice}\n\nسيتم تطوير صفحة تفاصيل المنتج في المرحلة القادمة.`);
+        });
+    });
+    
+    // تفعيل التنقل النشط حسب التمرير
+    function updateActiveNav() {
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-list a');
+        
+        let current = '';
+        
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop - 100;
+            const sectionHeight = section.clientHeight;
+            const sectionId = section.getAttribute('id');
+            
+            if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+                current = sectionId;
+            }
+        });
+        
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${current}`) {
+                link.classList.add('active');
+            }
+        });
+    }
+    
+    window.addEventListener('scroll', updateActiveNav);
+    
+    // تحميل الصور بكسل بطيء (Lazy Loading)
+    const images = document.querySelectorAll('img[loading="lazy"]');
+    
+    if ('IntersectionObserver' in window) {
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    img.src = img.src;
+                    imageObserver.unobserve(img);
+                }
+            });
+        });
+        
+        images.forEach(img => imageObserver.observe(img));
+    }
+});
